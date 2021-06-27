@@ -1,1 +1,23 @@
 # Project1-Fighter-Robot
+
+## Arm Control Interface
+A user interface for controlling robotic arm motors
+The interface contains six motors. Each motor's value is between 0-180. Each motor is set to an initial value of 90. In addition to 4 buttons:
+* Save button that saves the values to the database
+* On button sends the value 1 to the database to start the motors.
+* Off button sends the value 0 to the database to stop the motors.
+* Center button to reset the values of the motors to their default values.
+
+## Base Control Interface
+Robot base control user interface
+The interface contains five buttons, each button represents a direction (**F**orward, **B**ackward, **R**ight, **L**eft, and **S**top). Directions are saved in the database with the first char of the direction name.
+
+## Database
+### Arm Control Table
+Consists of 7 columns (6 motors and arm state).
+> CREATE TABLE `fighter_robot`.`arm` ( `motor1` INT(3) NOT NULL , `motor2` INT(3) NOT NULL , `motor3` INT(3) NOT NULL , `motor4` INT(3) NOT NULL , `motor5` INT(3) NOT NULL , `motor6` INT(3) NOT NULL , `state` INT(1) NOT NULL ) ENGINE = InnoDB;
+
+### Base Control Table
+Consists of two columns (Id and current direction).
+> CREATE TABLE `fighter_robot`.`base` ( `id` INT NOT NULL , `direction` CHAR(1) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
