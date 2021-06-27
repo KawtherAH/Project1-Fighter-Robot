@@ -14,12 +14,17 @@ The interface contains six motors. Each motor's value is between 0-180. Each mot
 Robot base control user interface
 The interface contains five buttons, each button represents a direction (**F**orward, **B**ackward, **R**ight, **L**eft, and **S**top). Directions are saved in the database with the first char of the direction name.
 
+![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/base%20control%20Pg.png?raw=true)
+
 ## Database
 ### Arm Control Table
 Consists of 7 columns (6 motors and arm state).
 > CREATE TABLE `fighter_robot`.`arm` ( `motor1` INT(3) NOT NULL , `motor2` INT(3) NOT NULL , `motor3` INT(3) NOT NULL , `motor4` INT(3) NOT NULL , `motor5` INT(3) NOT NULL , `motor6` INT(3) NOT NULL , `state` INT(1) NOT NULL ) ENGINE = InnoDB;
+> 
+![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/arm%20Table.png?raw=true)
 
 ### Base Control Table
 Consists of two columns (Id and current direction).
 > CREATE TABLE `fighter_robot`.`base` ( `id` INT NOT NULL , `direction` CHAR(1) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
+![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/base%20Table.png?raw=true)
