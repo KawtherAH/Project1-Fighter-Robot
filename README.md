@@ -7,6 +7,7 @@ The interface contains six motors. Each motor's value is between 0-180. Each mot
 * On button sends the value 1 to the database to start the motors.
 * Off button sends the value 0 to the database to stop the motors.
 * Center button to reset the values of the motors to their default values.
+
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/arm%20control%20Pg.png?raw=true)
 
 ## Base Control Interface
