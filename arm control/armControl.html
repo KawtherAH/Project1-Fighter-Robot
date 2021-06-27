@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FighterRobot-Control</title>
+    <link rel="stylesheet" href="armStyle.css" type="text/css">
+    </head>
+<body>
+    <h1>Fighter Robot Project</h1>
+    <form  id="f1" name="robotArm" action="" method="">
+        <fieldset>
+            <legend>Arm Control</legend>
+        <table>
+            
+        <tr><!--motor1-->   
+            <td><label>Motor 1</label></td>
+            <td><input type="text" id="text1" value="90"></td>
+            </tr>
+        <tr>
+            <td colspan="2"><input type="range" min="0" max="180" value="90" class="motor" id="M1" oninput="updateTextValue();"></td>
+            </tr>
+            
+        <tr><!--motor2-->    
+            <td><label>Motor 2</label></td>
+            <td><input type="text" id="text2" value="90"></td>
+            </tr>
+        <tr>
+            <td colspan="2"><input type="range" min="0" max="180" value="90" class="motor" id="M2" oninput="updateTextValue();"></td>
+            </tr>
+            
+        <tr><!--motor3-->    
+            <td><label>Motor 3</label></td>
+            <td><input type="text" id="text3" value="90"></td>
+            </tr>
+        <tr>
+            <td colspan="2"><input type="range" min="0" max="180" value="90" class="motor" id="M3" oninput="updateTextValue();"></td>
+            </tr>
+            
+        <tr><!--motor4-->    
+            <td><label>Motor 4</label></td>
+            <td><input type="text" id="text4" value="90"></td>
+            </tr>
+        <tr>
+            <td colspan="2"><input type="range" min="0" max="180" value="90" class="motor" id="M4" oninput="updateTextValue();"></td>
+            </tr>
+            
+        <tr><!--motor5-->    
+            <td><label>Motor 5</label></td>
+            <td><input type="text" id="text5" value="90"></td>
+            </tr>
+        <tr>
+            <td colspan="2"><input type="range" min="0" max="180" value="90" class="motor" id="M5" oninput="updateTextValue();"></td>
+            </tr>
+            
+        <tr><!--motor6-->    
+            <td><label>Motor 6</label></td>
+            <td><input type="text" id="text6" value="90"></td>
+            </tr>
+        <tr>
+            <td colspan="2"><input type="range" min="0" max="180" value="90" class="motor" id="M6" oninput="updateTextValue();"></td>
+            </tr>
+        </table>
+        </fieldset>
+        <button class="btn" onclick="SaveOnDB();">Save</button><br>
+        <button class="state" onclick="state();" value="1">On</button>
+        <button class="state" onclick="state();" value="0">Off</button><br>
+        <button class="btn" onclick="Center();">Center</button>
+    </form>
+    
+    <script>
+    function updateTextValue(){
+        var M1= document.getElementById('M1').value;
+          document.getElementById('text1').value=M1; 
+        var M2= document.getElementById('M2').value;
+          document.getElementById('text2').value=M2;
+        
+        var M3= document.getElementById('M3').value;
+          document.getElementById('text3').value=M3;
+        var M4= document.getElementById('M4').value;
+          document.getElementById('text4').value=M4;
+        
+        var M5= document.getElementById('M5').value;
+          document.getElementById('text5').value=M5;
+        var M6= document.getElementById('M6').value;
+          document.getElementById('text6').value=M6;
+        }
+    function SaveOnDB(){
+        
+    }
+    function state(){
+        
+    }
+    function Center(){
+        
+    }
+    
+    </script>
+    </body>
+</html>

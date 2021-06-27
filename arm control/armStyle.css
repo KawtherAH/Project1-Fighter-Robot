@@ -1,0 +1,53 @@
+ body{
+            background-image: url("../img1.jpg")
+        }
+        h1{
+            text-align: center;
+            color: #9dedf5;
+            font-family: "Arial Black";
+        }
+        form{
+            width: 30%;
+            margin: 0px auto;
+            padding: 20px;
+            border: 10px solid #B0C4DE;
+            border-radius: 10px;
+            border-width: thick medium thick;
+            text-align: center;  
+            background: white;
+        }
+        table{
+            padding:10px 85px 10px;
+        }
+        legend{   
+            margin:0 auto;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        label{
+            font-size: 20px;
+        }
+        input[type="text"]{
+            text-align: center;
+        }
+        input[type="range"]{
+            width: 200px;
+        }
+        button{
+            font-family:monospace;
+            font-size: 15px;
+            border-radius: 4px;
+            margin: 2px;
+            height: 25px;
+        }
+        button:hover{
+            background-color: lightgrey;
+            color: black;
+        }
+        button.state {
+            width: 95px;
+        }
+        button.btn {
+            width: 200px;
+            margin-top: 15px;
+        }
