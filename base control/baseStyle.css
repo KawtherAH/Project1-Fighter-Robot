@@ -1,0 +1,40 @@
+ body{
+            background-image: url("../img1.jpg")
+        }
+        h1{
+            text-align: center;
+            color: #9dedf5;
+            font-family: "Arial Black";
+            margin-top: 10%;
+        }
+        legend{   
+            margin:0 auto;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        button.map{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            color: darkblue;
+            background-color: #dff5f4;
+            border-color:black;
+            border-radius: 15px;
+            box-shadow: 6px 8px 18px #b8bcc2;
+            width: 180px;
+            height: 50px;
+            margin: 10px;
+        }
+        button.map:hover{
+            background-color: lightblue;
+        }
+        div{
+            text-align: center;
+            margin-left: 25%;
+            width: 50%;
+            padding: 20px;
+            border: 10px solid #B0C4DE;
+            border-radius: 10px;
+            border-width: thick medium thick;  
+            background: white;
+        }
