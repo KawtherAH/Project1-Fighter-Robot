@@ -28,3 +28,9 @@ Consists of two columns (Id and current direction).
 > CREATE TABLE `fighter_robot`.`base` ( `id` INT NOT NULL , `direction` CHAR(1) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/base%20Table.png?raw=true)
+
+## FR Control Panal
+The control panel of the arm is integrated with the control panel of the base in one interface(FR_ControlPanal) with the interface being linked to the database.
+
+
+
