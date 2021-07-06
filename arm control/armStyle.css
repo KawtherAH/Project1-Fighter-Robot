@@ -1,5 +1,5 @@
  body{
-            background-image: url("../img1.jpg")
+            background-image: url("img.jpg")
         }
         h1{
             text-align: center;
@@ -33,21 +33,21 @@
         input[type="range"]{
             width: 200px;
         }
-        button{
+        input[type="submit"]{
             font-family:monospace;
-            font-size: 15px;
-            border-radius: 4px;
-            margin: 2px;
-            height: 25px;
+            font-size: 15px !important;
+            border-radius: 4px !important;
+            margin: 2px !important;
+            height: 25px !important;
         }
-        button:hover{
+        input[type="submit"]:hover{
             background-color: lightgrey;
             color: black;
         }
-        button.state {
-            width: 95px;
+        input[type="submit"].state {
+            width: 95px !important;
         }
-        button.btn {
-            width: 200px;
-            margin-top: 15px;
+        input[type="submit"].btn {
+            width: 200px !important;
+            margin-top: 15px !important;
         }
