@@ -30,7 +30,9 @@ Consists of two columns (Id and current direction).
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/base%20Table.png?raw=true)
 
 ## FR Control Panal
-The control panel of the arm is integrated with the control panel of the base in one interface(FR_ControlPanal) with the interface being linked to the database.
+The control panel of the arm is integrated with the control panel of the base in one interface[(FR_ControlPanal)](https://github.com/KawtherAH/Project1-Fighter-Robot/tree/main/FR_ControlPanel) with the interface being linked to the database.
 
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/ControlPanel.png?raw=true)
+
+
 
