@@ -69,9 +69,8 @@ if (isset($_POST["Center"])) {
     header("Location: index.php?center=$status");
 }
 if (isset($_POST['Forward'])) {
-    $f=$_POST['Forward'];
-    $status = "";
-    $query = "Update base set direction= F";
+    $dir=$_POST['Forward'];
+    $query = "INSERT INTO base (id,direction) VALUES (NULL,'$dir')";
     $res = mysqli_query($con, $query);
     if ($res == 1) {
         $status = "Done";
@@ -80,16 +79,50 @@ if (isset($_POST['Forward'])) {
     }
     header("Location: index.php?status=$status");
 }
-
-
-
-
-
-
-
-
-
-
-
-
+elseif(isset($_POST['Left'])){
+    $dir=$_POST['Left'];
+    $query = "INSERT INTO base (id,direction) VALUES (NULL,'$dir')";
+    $res = mysqli_query($con, $query);
+    if ($res == 1) {
+        $status = "Done";
+    } else {
+        $status = "NotDone";
+    }
+    header("Location: index.php?status=$status");
+}
+elseif(isset($_POST['Stop'])){
+    $dir=$_POST['Stop'];
+    $query = "INSERT INTO base (id,direction) VALUES (NULL,'$dir')";
+    $res = mysqli_query($con, $query);
+    if ($res == 1) {
+        $status = "Done";
+    } else {
+        $status = "NotDone";
+    }
+    header("Location: index.php?status=$status");
+}
+elseif(isset($_POST['Right'])){
+    $dir=$_POST['Right'];
+    $query = "INSERT INTO base (id,direction) VALUES (NULL,'$dir')";
+    $res = mysqli_query($con, $query);
+    if ($res == 1) {
+        $status = "Done";
+    } else {
+        $status = "NotDone";
+    }
+    header("Location: index.php?status=$status");
+}
+elseif(isset($_POST['Backward'])){
+    $dir=$_POST['Backward'];
+    $query = "INSERT INTO base (id,direction) VALUES (NULL,'$dir')";
+    $res = mysqli_query($con, $query);
+    if ($res == 1) {
+        $status = "Done";
+    } else {
+        $status = "NotDone";
+    }
+    header("Location: index.php?status=$status");
+}
 ?>
+
+
