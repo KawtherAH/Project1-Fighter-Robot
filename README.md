@@ -34,5 +34,9 @@ The control panel of the arm is integrated with the control panel of the base in
 
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/ControlPanel.png?raw=true)
 
+### Mobile View
 
+![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/MobileView.png?raw=true)
 
+> You Can visit Control Panel From Here: https://kawtherah.github.io/FR_ControlPanel/
+> 
