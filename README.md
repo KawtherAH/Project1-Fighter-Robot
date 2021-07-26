@@ -1,4 +1,4 @@
-# Project1-Fighter-Robot
+# Project1: Fighter Robot
 
 ## Arm Control Interface
 A user interface for controlling robotic arm motors
