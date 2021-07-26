@@ -31,12 +31,17 @@ Consists of two columns (Id and current direction).
 
 ## FR Control Panal
 The control panel of the arm is integrated with the control panel of the base in one interface [(FR_ControlPanal)](https://github.com/KawtherAH/Project1-Fighter-Robot/tree/main/FR_ControlPanel) with the interface being linked to the database.
+> You Can visit Control Panel From Here: https://kawtherah.github.io/FR_ControlPanel/
 
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/ControlPanel.png?raw=true)
 
 ### Mobile View
+The control panel responds to changes in the screen size, so it can also be used in small devices.
+* Extra small devices (phones, screen width 400px and down)
+* Extra small devices (phones, screen width 401px -> 600px)
+* Small devices (portrait tablets and large phones, screen width 601px -> 767px)
+* Medium devices (landscape tablets, screen width 768px -> 992px)
 
 ![alt text](https://github.com/KawtherAH/Project1-Fighter-Robot/blob/main/MobileView.png?raw=true)
 
-> You Can visit Control Panel From Here: https://kawtherah.github.io/FR_ControlPanel/
-> 
+ 
